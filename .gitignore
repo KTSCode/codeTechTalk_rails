@@ -15,3 +15,9 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore atlassian plugin file
+atlassian-ide-plugin.xml
+
+# Igonore Idea files
+.idea/*
