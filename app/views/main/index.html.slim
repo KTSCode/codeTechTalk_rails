@@ -1,0 +1,15 @@
+.header
+  h1 codeTech Talk
+
+.talks
+
+.talks-form
+  = form_for Talk.new do |f|
+    .field
+      h4 Username
+      == f.text_field :username,  placeholder: "username"
+      h4 Message
+      == f.text_field :message,  placeholder: "message"
+
+    .actions
+      == f.submit 'Say It!'
